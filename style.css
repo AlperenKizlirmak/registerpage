@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    background-color: brown;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 30px;
+}
+h1{
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+label{
+    display: inline-block;
+    width: 90px;
+}
+.lang-div,
+.gender-div  {
+    display: inline-block;
+}
+.lang-div label
+.gender-div label {
+    width: auto;
+}
+.inputs {
+    border-radius: 5px;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.radio-check {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.btn-container{
+    text-align: center;
+}
+.btn-container input{
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color:black;
+    padding: 10px;
+}
+.btn-container input:hover {
+    background-color: black;
+    color: aliceblue;
+    font-weight: 700;
+    cursor: pointer;
+}
+.textarea-div *{
+  vertical-align: middle;
+}
